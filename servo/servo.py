@@ -4,7 +4,7 @@ import time
 from arduino import Arduino
 
 
-ard = Arduino('COM4', 9600)
+ard = Arduino('/dev/ttyACM0', 9600)
 print('Connected', flush=True)
 
 while True:
