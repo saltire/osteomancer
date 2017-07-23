@@ -11,7 +11,7 @@ from PIL import ImageEnhance
 # from PIL import ImageOps
 
 
-device = '/dev/video2'
+device = '/dev/video1'
 mode = 'RGB'
 size = 1920, 1080
 
